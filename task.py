@@ -82,9 +82,9 @@ def delete_rec(record_id):
 
 createFile()
 reading()
-insert()
-print("\n\t\t\tafter inserting")
-reading()
+# insert()
+# print("\n\t\t\tafter inserting")
+# reading()
 print('\n\n\nfound' if searching("egypt") else"\n\n\nnot found")
 update("010068060301","123654")
 print('\n\t\t\tafter updateing')
